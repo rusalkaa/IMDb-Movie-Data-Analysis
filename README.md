@@ -15,5 +15,14 @@ The raw dataset was a bit messy. Before making any charts, I used Power Query to
 Here is a screenshot of my final Power BI dashboard:
 ![Power BI Dashboard](imdb_movies_v1.png)
 
+## Update v2.0: From Static to Interactive Dashboard
+For the second version of this project, my goal was to turn the static charts into an interactive "Executive Dashboard." I wanted the user to explore the data themselves, rather than just looking at a fixed report. 
+
+## What I did? 
+- **Slicers:** I added filters for Release Year, Genre, and Runtime Categories. Now, if you select "Action," the whole dashboard instantly updates to show only Action movie trends.
+- **Matrix:** I created a matrix to see which directors are actually the best. Why? Because looking only at "Average Rating" is a trap. A director with only one movie that scored 10/10 shouldn't rank higher than a master who directed 30 great movies. So, I put "Avg. Rating" and "Total Movies" side by side, and filtered out anyone with fewer than 10 movies.
+
+## v2.0 Dashboard
+![Power BI Dashboard](imdb_movies_v2.png)
 
 
