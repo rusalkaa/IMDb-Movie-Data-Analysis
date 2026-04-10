@@ -27,7 +27,7 @@ For the second version of this project, my goal was to turn the static charts in
 
 ## Update v3.0
 This version shifts the focus from basic data visualization to an interactive, user-centric analytical tool.
-- **Drillthrough:** Added a dedicated `Director Details` page. Users can now right-click a director on the main matrix to drill down into their specific filmography without losing global filters.
+- **Drillthrough:** Users can now right-click a director on the main matrix to drill down into their specific filmography without losing global filters.
 ![Drillthrough](imdb_movies_v3_drill1.png)
 ![Drillthrough](imdb_movies_v3_drill2.png)
 
