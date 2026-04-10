@@ -25,4 +25,16 @@ For the second version of this project, my goal was to turn the static charts in
 ## v2.0 Dashboard
 ![Power BI Dashboard](imdb_movies_v2.png)
 
+## Update v3.0
+This version shifts the focus from basic data visualization to an interactive, user-centric analytical tool.
+- **Drillthrough:** Added a dedicated `Director Details` page. Users can now right-click a director on the main matrix to drill down into their specific filmography without losing global filters.
+![Drillthrough](imdb_movies_v3_drill1.png)
+![Drillthrough](imdb_movies_v3_drill2.png)
+
+- **Tooltip:** Hovering over a year now triggers a custom, mini-page displaying the total movie count and movies of that specific year.
+![Tooltip](imdb_movies_v3_tooltip.png)
+
+- **Small Multiples:** Implemented a Small Multiples grid coupled with a strict "Top 6 by Volume" filter to cleanly compare the performance of mainstream genres.
+![Small Multiples](imdb_movies_v3_small-multiples.png)
+
 
